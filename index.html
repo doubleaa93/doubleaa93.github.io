@@ -13,39 +13,94 @@
         }
 
         body {
-            background-color: rgb(236, 17, 100);
+            background-color: #90caf9;
+        }
+
+        .material-placeholder,
+        materialboxed {
+            display: inline-block;
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <h2 class="white-text">Andre Escudero</h2>
-        <h4 class="white-text">Web Developer</h4>
-        <div class="row">
-            <div class="col s12">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">Ping Pong Score Tracker Project</span>
-                        <p>Ping Pong score tracker keeps track of your score while you play.</p>
-                        <p>Share your url with your opponent/friend and you can both update your scores in real time!</p>
-                        <p>Feel Like displaying your score on a big screen? Then share the special projector screen and let
-                            others watch your match scores in real time!</p>
+    <main>
+        <div class="container">
+            <h2 class="white-text">Andre Escudero</h2>
+            <h4 class="white-text">Web Developer</h4>
+            <div class="row">
+                <div class="col s12">
+                    <div class="card z-depth-4">
+                        <div class="card-content">
+                            <span class="card-title">Ping Pong Score Tracker Project</span>
+                            <p>Ping Pong score tracker keeps track of your score while you play.</p>
+                            <p>Share your url with your opponent/friend and you can both update your scores in real time!</p>
+                            <p>Feel like displaying your score on a big screen? Then share the special projector screen and
+                                let others watch your match scores in real time!</p>
 
-                        <h6>Features</h6>
-                        <img width="200px" src="images/start.png">
-                        <img width="200px" src="images/player.png">
-                        <img width="200px" src="images/settings.png">
-                    </div>
-                    <div class="card-action">
-                        <a href="https://ping-pong-25809.firebaseapp.com/">Project Website</a>
+                            <h6>Features</h6>
+                            <ul>
+                                <li>Real time updates</li>
+                                <li>Customize names(try emojis) and colors</li>
+                                <li>Results Screens</li>
+                                <li>Scores are announced using Web Speech API (can be turned off from settings</li>
+                                <li>Projector screen to share your scores on the big screen</li>
+                                <li>Works on IE 10+, Safari, Chrome, Firefox, IOS and Android</li>
+                            </ul>
+                            <img class="materialboxed" width="150px" src="images/start.png">
+                            <img class="materialboxed" width="150px" src="images/player.png">
+                            <img class="materialboxed" width="150px" src="images/settings.png">
+                            <img class="materialboxed" width="150px" src="images/color.png">
+                            <img class="materialboxed" width="150px" src="images/score.png">
+                            <img class="materialboxed" width="150px" src="images/results.png">
+                            <br>
+                            <img class="materialboxed" width="300px" src="images/landscape.png">
+                            <img class="materialboxed" width="300px" src="images/copy.png">
+                            <p>Developed using aurelia framework, and materialize css for the front end and Firebase for the
+                                backend
+                            </p>
+                        </div>
+                        <div class="card-action">
+                            <a href="https://ping-pong-25809.firebaseapp.com/">Project Website</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="page-footer blue darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Contact me</h5>
+                    <p class="grey-text text-lighten-4">Email: doubleaa93@gmail.com</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/andre-escudero-12415285/">Linkedin</a>
+                        </li>
+                        <li>
+                            <a class="grey-text text-lighten-3" href="#https://github.com/doubleaa93">Github</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Copyright Andre Escudero
+
+            </div>
+        </div>
+    </footer>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
 </body>
 
 </html>
